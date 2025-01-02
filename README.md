@@ -25,6 +25,3 @@ Loot Filter of the Ages for `Path of Exile 2`
 
 
 ![Alt text](https://github.com/j4dice/poe2_filter/blob/main/images/item_filter_refresh.png?raw=true "Title")
-
-* BGOTA Filter
-- Varying font sizes for less important, but still sometimes desired, loot
