@@ -105,7 +105,19 @@ PlayAlertSound 13 250
 
 Show
 Class = Currency
-BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Exotic Coinage"
+BaseType = "Orb of Chance"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
+SetFontSize 45
+SetTextColor 255 255 0 255
+SetBorderColor 100 150 255 255
+SetBackgroundColor 255 255 255 150
+CustomAlertSound "sounds/bro-call.wav"
+#PlayAlertSound 11 100
+
+Show
+Class = Currency
+BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment""Exotic Coinage"
 MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
 SetFontSize 45
