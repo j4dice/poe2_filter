@@ -7,11 +7,12 @@ Loot Filter of the Ages for `Path of Exile 2`
 - Open the game and press Esc
 - Navigate to Options > Game
 - In the `Item Filter` options, click the folder icon
-- Place filter file(s) in that location
 
 
 ![Alt text](https://github.com/j4dice/poe2_filter/blob/main/images/item_filter_options_open_dir.png?raw=true "Title")
 
+
+- Place filter file(s) in that location
 
 ![Alt text](https://github.com/j4dice/poe2_filter/blob/main/images/filter_directory.png?raw=true "Title")
 
