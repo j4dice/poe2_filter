@@ -1,7 +1,6 @@
 # BGOTA Filter
 Loot Filter of the Ages for `Path of Exile 2`
 
-
 # Download and Extract Loot Filters
 - Download your preferred loot filters from a trusted source
 - Open the game and press Esc
