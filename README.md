@@ -1,13 +1,8 @@
 # BGOTA Filter
-A loot filter of the ages for `Path of Exile 2`.
+Loot Filter of the Ages for `Path of Exile 2`
 
 
-
-![Alt text](https://github.com/j4dice/poe2_filter/blob/main/filter_directory.png?raw=true "Title")
-
-
-Download and Extract Loot Filters
-
+# Download and Extract Loot Filters
 - Download your preferred loot filters from a trusted source
 - Open the game and press Esc
 - Navigate to Options > Game
@@ -15,7 +10,10 @@ Download and Extract Loot Filters
 - Place filter file(s) in that location
 
 
-![Alt text](https://github.com/j4dice/poe2_filter/blob/main/item_filter_options_open_dir.png?raw=true "Title")
+![Alt text](https://github.com/j4dice/poe2_filter/blob/main/images/item_filter_options_open_dir.png?raw=true "Title")
+
+
+![Alt text](https://github.com/j4dice/poe2_filter/blob/main/images/filter_directory.png?raw=true "Title")
 
 
 - Open the game and press Esc.
@@ -25,7 +23,7 @@ Download and Extract Loot Filters
 - If it still doesn't show up, try restarting the game
 
 
-![Alt text](https://github.com/j4dice/poe2_filter/blob/main/item_filter_refresh.png?raw=true "Title")
+![Alt text](https://github.com/j4dice/poe2_filter/blob/main/images/item_filter_refresh.png?raw=true "Title")
 
 * BGOTA Filter
 - Varying font sizes for less important, but still sometimes desired, loot
