@@ -223,14 +223,14 @@ BaseType == Gold
 #MinimapIcon 0 Yellow Circle
 StackSize >= 1000
 #PlayEffect Yellow
-SetFontSize 30
+SetFontSize 40
 SetTextColor 255 255 204 180
 SetBackgroundColor 255 255 255 0
 
 Show
 BaseType == Gold
 #PlayEffect Yellow Temp
-SetFontSize 30
+SetFontSize 25
 SetTextColor 255 255 204 180
 SetBackgroundColor 255 255 255 0
 
