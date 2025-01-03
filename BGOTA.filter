@@ -489,16 +489,6 @@ SetBorderColor 250 50 100 250
 SetFontSize 40
 
 Show
-Class "Heavy Belt" "Stellar Amulet" "Sapphire Ring" "Gold Ring" "Gold Amulet" "Emerald Ring"
-Rarity = Normal
-MinimapIcon 0 Red Moon
-SetTextColor 231 180 120
-SetBackgroundColor 0 0 0 250
-SetBorderColor 250 50 100 250
-SetFontSize 40
-CustomAlertSound "sounds/dre.wav"
-
-Show
 Class "Rings" "Amulets" "Belts"
 SetBackgroundColor 0 0 0 250
 SetBorderColor 0 0 0 250
