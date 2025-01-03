@@ -94,7 +94,18 @@ CustomAlertSound "sounds/bro-call.wav"
 
 Show
 Class = Currency
-BaseType  "Gemcutter's Prism" "Vaal Orb" "Chaos Orb" "Exalted Orb"
+BaseType  "Vaal Orb"
+PlayEffect Yellow
+MinimapIcon 0 Yellow Star
+SetFontSize 45
+SetTextColor 255 255 204 250
+SetBackgroundColor 200 0 100 150
+SetBorderColor 255 255 255 255
+CustomAlertSound "sounds/big-bawlz.wav"
+
+Show
+Class = Currency
+BaseType  "Gemcutter's Prism" "Chaos Orb"
 PlayEffect Yellow
 MinimapIcon 0 Yellow Star
 SetFontSize 45
@@ -202,7 +213,7 @@ Class = Socketable
 BaseType "Rune"
 MinimapIcon 1 Yellow Circle
 PlayEffect Yellow Temp
-SetFontSize 50
+SetFontSize 25
 SetTextColor 51 255 255 200
 SetBackgroundColor 51 153 255 120
 SetBorderColor 255 255 204 150
@@ -476,6 +487,16 @@ SetTextColor 231 180 120
 SetBackgroundColor 0 0 0 250
 SetBorderColor 250 50 100 250
 SetFontSize 40
+
+Show
+Class "Heavy Belt" "Stellar Amulet" "Sapphire Ring" "Gold Ring" "Gold Amulet" "Emerald Ring"
+Rarity = Normal
+MinimapIcon 0 Red Moon
+SetTextColor 231 180 120
+SetBackgroundColor 0 0 0 250
+SetBorderColor 250 50 100 250
+SetFontSize 40
+CustomAlertSound "sounds/dre.wav"
 
 Show
 Class "Rings" "Amulets" "Belts"
