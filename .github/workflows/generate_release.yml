@@ -1,0 +1,27 @@
+name: Create PoE2 Filter Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # Triggers when you push tags like v1.1.1
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to create GitHub Releases and upload assets
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create Zip Archive
+        run: |
+          zip -r "BGOTA-${{ github.ref_name }}.zip" BGOTA-055.filter sounds/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "BGOTA-${{ github.ref_name }}"
+          files: "BGOTA-${{ github.ref_name }}.zip"
+          generate_release_notes: true
