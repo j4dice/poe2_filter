@@ -204,6 +204,14 @@ Show # %H3 $type->gold $tier->any !gold_pilesmall
 
 # Currently contains mostly undroppable bases
 
+Show
+    BaseType "Shark Fin"
+    CustomAlertSound "sounds/doc_brown_12345_tm.mp3" 150
+	SetFontSize 42
+	SetTextColor 74 230 58 255
+	PlayEffect Green
+	MinimapIcon 0 Green Pentagon
+
 Show # %D9 $type->exoticbases $tier->superexoticbases !exotics_btier
 	Rarity Normal Magic Rare
 	BaseType == "Aberrant Sledge" "Abyssal Signet" "Ancient Gauntlets" "Ancient Leggings" "Ancient Mail" "Ancient Visor" "Diamond" "Glacial Fortress" "Heartwood Shortbow" "Ornate Ringmail" "Pearlescent Amulet" "Perching Staff" "Primal Markings" "Reflecting Staff" "Runic Fork" "Sacrificial Regalia" "Tenebrous Crown" "Time-Lost Diamond" "Twisted Wand" "Two-Stone Ring" "Venerable Defender" "Veridical Chain" "Warding Quarterstaff"
@@ -981,10 +989,22 @@ AreaLevel >= 65
 SetFontSize 40
 SetBackgroundColor 20 20 0 255
 
+Show
+UnidentifiedItemTier >= 4
+Rarity Rare
+BaseType == "Treerunner Shoes"
+AreaLevel >= 65
+SetFontSize 40
+SetTextColor 0 240 190 255
+# PlayAlertSound 3 300
+PlayEffect Blue
+MinimapIcon 1 Blue Diamond
+CustomAlertSound "sounds/tree_wizard.mp3" 150
+
 Show # %D6 $type->ut->rare $tier->gear4b !exotics_ctier
 UnidentifiedItemTier >= 4
 Rarity Rare
-BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Baroque Targe" "Death Mantle" "Divine Crown" "Dreaming Quarterstaff" "Elegant Crossbow" "Fanatic Bow" "Fang Talisman" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Guardian Bow" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Siphoning Wand" "Soaring Targe" "Sorcerous Tiara" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Tawhoan Greatclub" "Thunder Talisman" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Wrath Sceptre" "Adherent Cuffs" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Cryptic Crown" "Cryptic Leggings" "Desert Buckler" "Desolate Crossbow" "Dueling Wand" "Fanatic Greathammer" "Galvanic Wand" "Gemini Bow" "Golden Targe" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Obliterator Bow" "Omen Sceptre" "Paralysing Staff" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle" "Adorned Wraps" "Avian Mask" "Bastion Sabatons" "Brigand Mask" "Cassis Helm" "Deerstalker Hood" "Golden Mail" "Hawker's Jacket" "Lizardscale Coat" "Orichalcum Spear" "Pronged Spear" "Seaglass Spear" "Serpentscale Boots" "Spiked Bracers" "Steelmail Gauntlets" "Trailblazer Armour" "Treerunner Shoes" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Zealot Gauntlets"
+BaseType == "Acrid Wand" "Aegis Quarterstaff" "Akoyan Club" "Ancient Buckler" "Ancient Cuffs" "Apostle Leggings" "Ashbark Talisman" "Attuned Wand" "Baroque Targe" "Death Mantle" "Divine Crown" "Dreaming Quarterstaff" "Elegant Crossbow" "Fanatic Bow" "Fang Talisman" "Feathered Raiment" "Flexed Crossbow" "Flowing Raiment" "Fortified Hammer" "Fortress Tower Shield" "Fungal Talisman" "Gemini Crossbow" "Gleaming Cuffs" "Guardian Bow" "Kamasan Tiara" "Leyline Focus" "Luxurious Slippers" "Masked Greathelm" "Opulent Gloves" "Ornate Greaves" "Ornate Mitts" "Ornate Plate" "Paragon Greathelm" "Penetrating Quiver" "Reaping Staff" "Roaring Staff" "Ruination Maul" "Sacramental Robe" "Sacred Focus" "Saintly Crown" "Sanctified Staff" "Sandsworn Sandals" "Seastorm Mantle" "Siphoning Wand" "Soaring Targe" "Sorcerous Tiara" "Stoic Sceptre" "Strife Pick" "Striking Quarterstaff" "Tawhoan Greatclub" "Thunder Talisman" "Utzaal Cuirass" "Vaal Crest Shield" "Vaal Gloves" "Vaal Greaves" "Vaal Mitts" "Vaal Tower Shield" "Visceral Quiver" "Volant Quiver" "Voltaic Staff" "Warlock Leggings" "Wrath Sceptre" "Adherent Cuffs" "Alpha Talisman" "Ancestral Tiara" "Blacksteel Crest Shield" "Bolting Quarterstaff" "Chiming Staff" "Conjurer Mantle" "Cryptic Crown" "Cryptic Leggings" "Desert Buckler" "Desolate Crossbow" "Dueling Wand" "Fanatic Greathammer" "Galvanic Wand" "Gemini Bow" "Golden Targe" "Imperial Greathelm" "Jade Talisman" "Maji Talisman" "Marauding Mace" "Massive Greathammer" "Massive Mitts" "Obliterator Bow" "Omen Sceptre" "Paralysing Staff" "Primed Quiver" "Rattling Sceptre" "Razor Quarterstaff" "Sekhema Sandals" "Siege Crossbow" "Sinister Quarterstaff" "Sirenscale Gloves" "Skullcrusher Quarterstaff" "Soldier Cuirass" "Tasalian Focus" "Tasalian Greaves" "Tawhoan Tower Shield" "Trarthan Cannon" "Vile Robe" "Warlord Cuirass" "Warmonger Bow" "Withered Wand" "Wolfskin Mantle" "Adorned Wraps" "Avian Mask" "Bastion Sabatons" "Brigand Mask" "Cassis Helm" "Deerstalker Hood" "Golden Mail" "Hawker's Jacket" "Lizardscale Coat" "Orichalcum Spear" "Pronged Spear" "Seaglass Spear" "Serpentscale Boots" "Spiked Bracers" "Steelmail Gauntlets" "Trailblazer Armour" "Veteran Sabatons" "Wanderer Shoes" "War Wraps" "Warded Helm" "Zealot Gauntlets"
 AreaLevel >= 65
 SetFontSize 40
 SetTextColor 0 240 190 255
@@ -3690,7 +3710,7 @@ SetBackgroundColor 255 255 255 255
 # PlayAlertSound 6 300
 PlayEffect Red
 MinimapIcon 0 Red Star
-CustomAlertSound "sounds/dre.mp3"
+CustomAlertSound "sounds/dre.mp3" 150
 
 Show # %H8 $type->currency $tier->a !currency_a
 Class == "Incubators" "Stackable Currency"
@@ -3779,9 +3799,10 @@ Show # $type->currency->emotions $tier->s !apex_stier
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
 	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 6 300
+#	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
+	CustomAlertSound "sounds/roslaind_nightmare.mp3" 150
 
 Show # %H8 $type->currency->emotions $tier->a !currency_a
 	Class == "Incubators" "Stackable Currency"
@@ -3790,9 +3811,10 @@ Show # %H8 $type->currency->emotions $tier->a !currency_a
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 245 105 90 255
-	PlayAlertSound 1 300
+#	PlayAlertSound 1 300
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
+	CustomAlertSound "sounds/roslaind_nightmare.mp3" 150
 
 Show # %H7 $type->currency->emotions $tier->b !currency_b
 	Class == "Incubators" "Stackable Currency"
