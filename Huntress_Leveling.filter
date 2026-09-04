@@ -2627,7 +2627,7 @@ Show # $type->jewels->generic $tier->anytimelost !exotics_btier
 #	PlayAlertSound 3 300
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
-	CustomAlertSound "sounds/gems.mp3"
+	CustomAlertSound "sounds/gems.mp3" 150
 
 Show # $type->jewels->generic $tier->anycorruptedmod !exotics_btier
 	AnyEnchantment True
