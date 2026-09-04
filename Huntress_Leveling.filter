@@ -3545,7 +3545,7 @@ SetBackgroundColor 245 139 87 255
 PlayEffect White
 MinimapIcon 1 Yellow Circle
 BaseType == "Exalted Orb"
-CustomAlertSound "sounds/bro-call.wav" 150
+CustomAlertSound "sounds/bro-call.mp3" 150
 
 # FilterBlade: Conditional Entry
 Show
@@ -3594,7 +3594,7 @@ SetBackgroundColor 245 139 87 255
 PlayEffect White
 MinimapIcon 1 Yellow Circle
 BaseType == "Vaal Orb"
-CustomAlertSound "sounds/big-bawlz.wav"
+CustomAlertSound "sounds/big-bawlz.mp3"
 
 
 # FilterBlade: Conditional Entry
@@ -3689,7 +3689,7 @@ SetBackgroundColor 255 255 255 255
 # PlayAlertSound 6 300
 PlayEffect Red
 MinimapIcon 0 Red Star
-CustomAlertSound "sounds/dre.wav"
+CustomAlertSound "sounds/dre.mp3"
 
 Show # %H8 $type->currency $tier->a !currency_a
 Class == "Incubators" "Stackable Currency"
@@ -4035,7 +4035,7 @@ Show # $type->currency->omen $tier->s !apex_stier
 #	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
-    CustomAlertSound "sounds/dolphin-call.wav" 150
+    CustomAlertSound "sounds/dolphin-call.mp3" 150
 
 Show # %H8 $type->currency->omen $tier->a !currency_a
 	Class == "Omen"
