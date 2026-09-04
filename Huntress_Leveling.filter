@@ -2624,9 +2624,10 @@ Show # $type->jewels->generic $tier->anytimelost !exotics_btier
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 0 75 30 255
-	PlayAlertSound 3 300
+#	PlayAlertSound 3 300
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
+	CustomAlertSound "sounds/gems.mp3"
 
 Show # $type->jewels->generic $tier->anycorruptedmod !exotics_btier
 	AnyEnchantment True
